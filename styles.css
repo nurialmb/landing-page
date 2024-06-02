@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+}
+.left, .right {
+    display: flex;
+    align-items: center;
+}
