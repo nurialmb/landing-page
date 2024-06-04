@@ -17,8 +17,9 @@ ul {
 }
 .container {
     display: flex;
+    margin-top: 45px;
     justify-content: space-around;
-    gap: 50px
+    gap: 50px;
 }
 .left-side {
     display: flex;
@@ -27,12 +28,11 @@ ul {
 }
 
 .right-side {
-    width: 800px;
+    width: 700px;
+    height: 120px;
     background-color: grey;
     display: flex;
-    align-items: center;
-    text-align: center;
-    
+    align-self: center;
 }
 .main-text{
     font-size: 48px;
@@ -41,4 +41,46 @@ ul {
 .second-text {
     font-size: 18px;
 }
+.container-two {
+    text-align: center;
+    margin-top: 50px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    gap:25px;
+}
+.img {
+    border: 3px solid;
+    border-color: #3882F6;
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+  }
+  .title {
+    margin-bottom: 20px;
+  }
+ .text {
+    width: 110px;
+ }
+ .container-three {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+ }
+ .author {
+    align-self: flex-end;
+ }
+ .container-four {
+    margin-top: 50px;
+    display: flex;
+ }
+ .footer {
+    margin-top: 45px;
+    align-self: center;
+ }
+
+
+
+
 
